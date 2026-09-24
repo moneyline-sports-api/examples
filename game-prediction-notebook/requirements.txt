@@ -1,0 +1,4 @@
+moneyline-sports-api>=0.1.0
+pandas>=2.0
+matplotlib>=3.7
+jupyter

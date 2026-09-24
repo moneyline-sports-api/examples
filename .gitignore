@@ -1,0 +1,11 @@
+line-movement-tracker/*.png
+__pycache__/
+.venv/
+node_modules/
+.env
+.env.local
+.next/
+dist/
+.expo/
+.ipynb_checkpoints/
+!line-movement-tracker/sample-chart.png

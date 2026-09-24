@@ -1,0 +1,15 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #f7f7f5; color: #1a1a1a; }
+main { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+button { padding: 6px 12px; border-radius: 999px; border: 1px solid #ddd; background: #fff; cursor: pointer; font-size: 14px; }
+button[aria-pressed='true'] { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.game { background: #fff; border: 1px solid #e0e0e0; border-radius: 12px; padding: 12px 14px; }
+.game.in_progress { border-color: #3a9d23; }
+.status { font-size: 12px; color: #777; margin-bottom: 6px; }
+.in_progress .status { color: #3a9d23; font-weight: 600; }
+.team { display: flex; justify-content: space-between; padding: 2px 0; }
+.won { font-weight: 700; }
+.score { font-variant-numeric: tabular-nums; }
+.muted { color: #777; font-size: 13px; margin-top: 16px; }
+.error { color: #b00020; }

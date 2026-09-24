@@ -1,0 +1,2 @@
+moneyline-sports-api>=0.1.0
+matplotlib>=3.7

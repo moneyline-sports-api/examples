@@ -1,0 +1,14 @@
+{
+  "name": "moneyline-discord-odds-bot",
+  "private": true,
+  "type": "module",
+  "description": "A Discord bot that posts the best sportsbook odds with /odds, built on MoneyLine Sports API.",
+  "scripts": {
+    "register": "node register-commands.js",
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.0",
+    "moneyline-sports-api": "^0.1.2"
+  }
+}
