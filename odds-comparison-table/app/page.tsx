@@ -2,7 +2,7 @@ import { MoneyLine } from 'moneyline-sports-api'
 
 // The key stays on the server: this page renders on the server and the browser never sees it.
 const ml = new MoneyLine() // reads MONEYLINE_API_KEY
-export const revalidate = 300 // one odds call (18 credits) per league every 5 minutes at most
+export const revalidate = 300 // one odds call (1 credit) per league every 5 minutes at most
 
 const LEAGUES = { nfl: 'NFL', nba: 'NBA', mlb: 'MLB', nhl: 'NHL', ncaa_football: 'College Football' } as const
 type League = keyof typeof LEAGUES

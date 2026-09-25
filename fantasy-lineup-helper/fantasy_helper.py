@@ -48,7 +48,7 @@ def yes_probability(lines):
 
 
 def project(ml, league):
-    """Return {player: {stat: value}} from one props call per stat (25 credits each)."""
+    """Return {player: {stat: value}} from one props call per stat (1 credit each)."""
     stats = defaultdict(dict)
     for market in SCORING[league]:
         for game in ml.player_props(league=league, market=market, limit=50):

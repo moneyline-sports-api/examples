@@ -14,4 +14,4 @@ npm run dev
 
 The Vite dev server forwards `/api` requests to MoneyLine and adds your key there, so the browser never sees it. In production, do the same from your own backend or an edge function.
 
-Each refresh costs 2 credits.
+Each refresh costs 1 credit.

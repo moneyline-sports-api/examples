@@ -1,7 +1,7 @@
 import { MoneyLine } from 'moneyline-sports-api'
 
 const ml = new MoneyLine() // reads MONEYLINE_API_KEY
-const CACHE_MS = 5 * 60 * 1000 // one odds call costs 18 credits, so share results for 5 minutes
+const CACHE_MS = 5 * 60 * 1000 // one odds call per league, so share results for 5 minutes
 const cache = new Map()
 
 export const LEAGUES = { nfl: 'NFL', nba: 'NBA', mlb: 'MLB', nhl: 'NHL', ncaa_football: 'College Football', ncaa_basketball: 'College Basketball', soccer_epl: 'Premier League', soccer_mls: 'MLS' }

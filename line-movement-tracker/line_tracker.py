@@ -16,7 +16,7 @@ from moneyline_sports_api import MoneyLine
 
 
 def next_game(ml, league):
-    """The soonest scheduled game in the coming week (2 credits). Events come back newest first, so bound the window."""
+    """The soonest scheduled game in the coming week (1 credit). Events come back newest first, so bound the window."""
     today = date.today()
     window = {"from": today.isoformat(), "to": (today + timedelta(days=7)).isoformat()}
     games = ml.events(league=league, status="scheduled", limit=100, **window)

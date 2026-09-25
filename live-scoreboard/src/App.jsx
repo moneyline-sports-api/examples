@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 const LEAGUES = { nfl: 'NFL', mlb: 'MLB', nba: 'NBA', nhl: 'NHL', ncaa_football: 'College Football', soccer_mls: 'MLS' }
-// Each refresh costs 2 credits: check every minute while a game is live, every 10 minutes otherwise.
+// Each refresh costs 1 credit: check every minute while a game is live, every 10 minutes otherwise.
 const LIVE_MS = 60 * 1000
 const IDLE_MS = 10 * 60 * 1000
 

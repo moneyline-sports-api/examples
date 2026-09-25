@@ -8,14 +8,14 @@ Each folder runs on its own and has a step-by-step tutorial on moneylineapp.com.
 |---|---|---|---|---|
 | [ev-finder](ev-finder) | Lists positive expected value bets across US sportsbooks | Python | 1 | [Find +EV bets](https://www.moneylineapp.com/examples/positive-ev-betting-finder) |
 | [arbitrage-finder](arbitrage-finder) | Finds guaranteed-profit bets and sizes both stakes | Python | 1 | [Sports arbitrage finder](https://www.moneylineapp.com/examples/sports-arbitrage-finder) |
-| [line-movement-tracker](line-movement-tracker) | Charts how a game's moneyline moved from open to now | Python | 3 | [Track line movement](https://www.moneylineapp.com/examples/betting-line-movement-tracker) |
-| [fantasy-lineup-helper](fantasy-lineup-helper) | Projects fantasy points from sportsbook prop lines | Python | 75 to 150 | [Fantasy projections from props](https://www.moneylineapp.com/examples/fantasy-projections-from-prop-lines) |
-| [game-prediction-notebook](game-prediction-notebook) | Builds an NFL Elo model and compares it with the market | Jupyter | about 40 | [NFL prediction model](https://www.moneylineapp.com/examples/nfl-prediction-model-with-odds) |
-| [discord-odds-bot](discord-odds-bot) | A `/odds` slash command with the best line per team | Node | 18 per league, cached 5 min | [Discord odds bot](https://www.moneylineapp.com/examples/sports-betting-discord-bot) |
-| [odds-comparison-table](odds-comparison-table) | An odds comparison page with the best price highlighted | Next.js | 18 per league, cached 5 min | [Odds comparison site](https://www.moneylineapp.com/examples/odds-comparison-site-nextjs) |
-| [hit-rate-dashboard](hit-rate-dashboard) | How often players cleared their prop line | Next.js | about 75 per board, cached 1 hour | [Hit-rate dashboard](https://www.moneylineapp.com/examples/player-props-hit-rate-dashboard) |
-| [live-scoreboard](live-scoreboard) | Today's scores, refreshing while games are live | React + Vite | 2 per refresh | [Live scoreboard](https://www.moneylineapp.com/examples/live-sports-scores-react) |
-| [mobile-odds-app](mobile-odds-app) | A phone app with the best moneyline per game | Expo (React Native) | 18 per league | [Mobile odds app](https://www.moneylineapp.com/examples/sports-odds-app-react-native) |
+| [line-movement-tracker](line-movement-tracker) | Charts how a game's moneyline moved from open to now | Python | 2 | [Track line movement](https://www.moneylineapp.com/examples/betting-line-movement-tracker) |
+| [fantasy-lineup-helper](fantasy-lineup-helper) | Projects fantasy points from sportsbook prop lines | Python | 3 to 6 | [Fantasy projections from props](https://www.moneylineapp.com/examples/fantasy-projections-from-prop-lines) |
+| [game-prediction-notebook](game-prediction-notebook) | Builds an NFL Elo model and compares it with the market | Jupyter | about 10 | [NFL prediction model](https://www.moneylineapp.com/examples/nfl-prediction-model-with-odds) |
+| [discord-odds-bot](discord-odds-bot) | A `/odds` slash command with the best line per team | Node | 1 per league, cached 5 min | [Discord odds bot](https://www.moneylineapp.com/examples/sports-betting-discord-bot) |
+| [odds-comparison-table](odds-comparison-table) | An odds comparison page with the best price highlighted | Next.js | 1 per league, cached 5 min | [Odds comparison site](https://www.moneylineapp.com/examples/odds-comparison-site-nextjs) |
+| [hit-rate-dashboard](hit-rate-dashboard) | How often players cleared their prop line | Next.js | up to 13 per board, cached 1 hour | [Hit-rate dashboard](https://www.moneylineapp.com/examples/player-props-hit-rate-dashboard) |
+| [live-scoreboard](live-scoreboard) | Today's scores, refreshing while games are live | React + Vite | 1 per refresh | [Live scoreboard](https://www.moneylineapp.com/examples/live-sports-scores-react) |
+| [mobile-odds-app](mobile-odds-app) | A phone app with the best moneyline per game | Expo (React Native) | 1 per league | [Mobile odds app](https://www.moneylineapp.com/examples/sports-odds-app-react-native) |
 
 ## Before you start
 

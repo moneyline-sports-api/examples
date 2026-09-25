@@ -16,7 +16,7 @@ Options:
 
 - `--league`: `nfl`, `nba`, `mlb`, `nhl`, `ncaa_football`, `ncaa_basketball`, `soccer_epl` or `soccer_mls`. Leave it out for every league.
 - `--min-ev`: the smallest edge to show, in percent. The default is 2.
-- `--sportsbooks-only`: skip DFS apps and exchanges.
+- `--sportsbooks-only`: skip exchanges and prediction markets.
 
 Each run costs 1 credit.
 
@@ -30,6 +30,6 @@ Each run costs 1 credit.
   3.0%    -110       54.0%  LowVig.ag        nfl            spread                   Cincinnati Bengals -2.5
 ```
 
-"Fair win %" is the sportsbook consensus for that bet. The API only uses prices refreshed in the last 12 hours, and only when at least three sportsbooks price the bet.
+"Fair win %" is the no-vig sportsbook consensus for that bet: each sportsbook's margin is removed, then the sportsbooks that price every side are averaged, leaving out the book being scored. The API only uses prices refreshed in the last 12 hours, and only when at least three other sportsbooks price the bet (five for prices of +400 or longer).
 
 Prices move. Check the price at the book before you bet.

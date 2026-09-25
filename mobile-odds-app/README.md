@@ -13,7 +13,7 @@ EXPO_PUBLIC_MONEYLINE_API_KEY=your-key npx expo start
 
 Open it in Expo Go on your phone, or press `i` or `a` for a simulator. Press `w` to try it in a browser.
 
-Each league costs 18 credits per load.
+Each league costs 1 credit per load.
 
 ## Before you ship
 

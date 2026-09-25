@@ -14,4 +14,4 @@ npm run dev
 
 Open http://localhost:3000. Boards cover NFL receptions and rushing yards, NBA points and MLB hits.
 
-Each board costs about 75 credits: one props call (25) plus one hit-rate call per player (4 each, for 12 players). The page caches each board for an hour.
+Each board costs at most 13 credits: one props call plus one hit-rate call for each of up to 12 players, 1 credit each. The page caches each board for an hour.

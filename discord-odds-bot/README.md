@@ -19,7 +19,7 @@ Tutorial: [Build a sports betting Discord bot](https://www.moneylineapp.com/exam
 
 Then type `/odds league:NFL team:Packers` in your server.
 
-Each league costs 18 credits per lookup. The bot reuses results for 5 minutes, so a busy server doesn't spend more.
+Each league costs 1 credit per lookup. The bot reuses results for 5 minutes, so a busy server doesn't spend more.
 
 ## Sample reply
 

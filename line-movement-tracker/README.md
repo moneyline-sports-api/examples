@@ -13,7 +13,7 @@ python line_tracker.py --league nfl         # the next NFL game
 python line_tracker.py --event <eventId>    # a specific game
 ```
 
-A run costs 3 credits: 2 to find the next game and 1 for its history.
+A run costs 2 credits: 1 to find the next game and 1 for its history.
 
 ## Sample output
 

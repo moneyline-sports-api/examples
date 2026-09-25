@@ -1,7 +1,7 @@
 import { MoneyLine } from 'moneyline-sports-api'
 
 const ml = new MoneyLine() // reads MONEYLINE_API_KEY; stays on the server
-// One props call (25 credits) plus one hit-rate call per player (4 credits each), cached for an hour.
+// One props call plus one hit-rate call per player, 1 credit each, cached for an hour.
 export const revalidate = 3600
 const PLAYERS = 12
 

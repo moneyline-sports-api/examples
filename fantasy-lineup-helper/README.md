@@ -13,7 +13,7 @@ python fantasy_helper.py --league nfl --top 25
 python fantasy_helper.py --league nba
 ```
 
-Each stat is one props call at 25 credits. NFL uses six stats (150 credits) and NBA uses three (75 credits). Change the `SCORING` table to use your league's scoring or fewer stats.
+Each stat is one props call at 1 credit. NFL uses six stats (6 credits) and NBA uses three (3 credits). Change the `SCORING` table to use your league's scoring or fewer stats.
 
 ## Sample output
 

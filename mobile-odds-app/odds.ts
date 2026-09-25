@@ -21,7 +21,7 @@ function best(game: Game, team: string): Side {
   return side
 }
 
-// Best moneyline for each side of the next 20 games (one call, 18 credits).
+// Best moneyline for each side of the next 20 games (one call, 1 credit).
 export async function bestMoneylines(league: string): Promise<GameLine[]> {
   const games = (await ml.odds({ league, market: 'moneyline', sourceType: 'sportsbook' })) as Game[]
   const now = Date.now()

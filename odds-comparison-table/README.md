@@ -14,4 +14,4 @@ npm run dev
 
 Open http://localhost:3000 and switch leagues with the buttons.
 
-The page renders on the server, so your key never reaches the browser. It fetches each league at most once every 5 minutes, at 18 credits a call. Raise `revalidate` in `app/page.tsx` to spend less.
+The page renders on the server, so your key never reaches the browser. It fetches each league at most once every 5 minutes, at 1 credit a call. Raise `revalidate` in `app/page.tsx` to spend less.

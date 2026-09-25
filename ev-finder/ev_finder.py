@@ -25,7 +25,7 @@ def main():
     parser = argparse.ArgumentParser(description="Find +EV bets across US sportsbooks.")
     parser.add_argument("--league", help="nfl, nba, mlb, nhl, ncaa_football, ncaa_basketball, soccer_epl, soccer_mls (default: all)")
     parser.add_argument("--min-ev", type=float, default=2.0, help="minimum expected value in percent (default: 2)")
-    parser.add_argument("--sportsbooks-only", action="store_true", help="skip DFS apps and exchanges")
+    parser.add_argument("--sportsbooks-only", action="store_true", help="skip exchanges and prediction markets")
     args = parser.parse_args()
 
     ml = MoneyLine()  # reads MONEYLINE_API_KEY
